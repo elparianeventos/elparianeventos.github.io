@@ -1,0 +1,7 @@
+<section class="featurettes">
+  <ul>
+    {% for item in site.featurettes %}
+      <li style="background-image: url({{ item.image }})"></li>
+    {% endfor %}
+  </ul>
+</section>

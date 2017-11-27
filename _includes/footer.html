@@ -1,18 +1,11 @@
---TEST--
-{% for item in site.galerias %}
-<h2>{{ item.title }}</h2>
-<p>{{ item.content }}</p>
-{% endfor %}
---TEST--
-
 <footer class="footer">
   <div class="container">
     <div class="clearfix">
-      <dl class="footer-nav">
-        <dt class="nav-title">El Parian</dt>
+      <dl class="footer-logo footer-logo--big">
+        <img class="logo" src="{{ site.url }}/assets/img/logo.svg" height="65">
         <dd class="nav-item">
           <p>
-            ¡El espacio perfecto para tu boda! Disfruta de ese día acompañado de la naturaleza y tus invitados.
+            ¡El espacio perfecto para tu boda! Disfruta de ese día acompañado de la naturaleza y tus invitados. <br>
             Contamos con opción de hospedaje, salón de belleza y spa para que tu familia y tu se relajen los días previos al gran día.
           </p>
         </dd>
@@ -25,7 +18,7 @@
       </dl>
 
       <dl class="footer-nav">
-        <dt class="nav-title">Contáctanos</dt>
+        <dt class="nav-title">CONTÁCTANOS</dt>
         <dd class="nav-item">
           <a href="mailto://{{ site.contact.email }}">
             <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;

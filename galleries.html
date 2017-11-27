@@ -1,0 +1,12 @@
+---
+layout: page
+---
+<div class="container">
+    <h1>Galerías</h1>
+    <p>Selecciona alguna galería:</p>
+
+    {% for item in site.galleries %}
+    <h2>{{ item.title }}</h2>
+    <p>{{ item.content }}</p>
+    {% endfor %}
+</div>
