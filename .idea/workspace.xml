@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff53f4ce-f55d-4f14-b270-983d9472a1cd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_galleries/gallerie_1.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/featurettes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/gallerie.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/galleries.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_galerias/galeria_1.markdown" afterPath="$PROJECT_DIR$/_featurettes/featurette_1.markdown" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_layouts/galeria.html" afterPath="$PROJECT_DIR$/_layouts/featurette.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/home.html" afterPath="$PROJECT_DIR$/_layouts/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/pictures/featurettes/featurette_1.jpg" afterPath="$PROJECT_DIR$/assets/img/pictures/featurettes/featurette_1.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_overrides.scss" afterPath="$PROJECT_DIR$/_sass/_overrides.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,8 +69,8 @@
       <file leaf-file-name="_overrides.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_sass/_overrides.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="54" column="49" lean-forward="false" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
+            <state relative-caret-position="915">
+              <caret line="61" column="22" lean-forward="true" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -343,12 +332,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511761749690</updated>
-      <workItem from="1511761752489" duration="7978000" />
+      <workItem from="1511761752489" duration="8699000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7978000" />
+    <option name="totallyTimeSpent" value="8699000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1229" y="2" width="1278" height="1440" extended-state="0" />
@@ -614,8 +603,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_sass/_overrides.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="49" lean-forward="false" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
+        <state relative-caret-position="915">
+          <caret line="61" column="22" lean-forward="true" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
           <folding />
         </state>
       </provider>

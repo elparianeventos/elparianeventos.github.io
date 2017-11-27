@@ -52,7 +52,15 @@ body {
       width: auto;
       background-size: cover;
       background-position: center;
-      filter: grayscale(1) sepia(1) hue-rotate(66deg);
+      filter: grayscale(1) sepia(1) hue-rotate(40deg);
+      &:before {
+        content: '';
+        background-color: #0000006e;
+        opacity: 1;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+      }
     }
   }
 }
