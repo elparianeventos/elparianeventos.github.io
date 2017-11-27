@@ -1,51 +1,54 @@
+--TEST--
+{% for item in site.galerias %}
+<h2>{{ item.title }}</h2>
+<p>{{ item.content }}</p>
+{% endfor %}
+--TEST--
+
 <footer class="footer">
   <div class="container">
     <div class="clearfix">
       <dl class="footer-nav">
-        <dt class="nav-title">Meta</dt>
+        <dt class="nav-title">El Parian</dt>
         <dd class="nav-item">
-	  <a href="#">Imprint</a>
-	</dd>
-      </dl>
-
-      <dl class="footer-nav">
-        <dt class="nav-title">Latest Posts</dt>
-        {% for post in site.posts limit:5 %}
-          <dd class="nav-item">
-	    <a href="{{ post.url | prepend: site.baseurl }}">
-              {{ post.title | truncate: 35 }}
-	    </a>
-	  </dd>
-        {% endfor %}
-      </dl>
-
-      <dl class="footer-nav">
-        <dt class="nav-title">Title</dt>
-        <dd class="nav-item">
-          <a href="#">Link</a>
+          <p>
+            ¡El espacio perfecto para tu boda! Disfruta de ese día acompañado de la naturaleza y tus invitados.
+            Contamos con opción de hospedaje, salón de belleza y spa para que tu familia y tu se relajen los días previos al gran día.
+          </p>
         </dd>
       </dl>
 
       <dl class="footer-nav">
-        <dt class="nav-title">Title</dt>
+      </dl>
+
+      <dl class="footer-nav">
+      </dl>
+
+      <dl class="footer-nav">
+        <dt class="nav-title">Contáctanos</dt>
         <dd class="nav-item">
-          <a href="mailto://mail@example.com">
+          <a href="mailto://{{ site.contact.email }}">
             <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;
-            mail@example.com
+            {{ site.contact.email }}
           </a>
         </dd>
         <dd class="nav-item">
-          <a href="https://www.twitter.com/twitter-handle">
-            <i class="fa fa-twitter" aria-hidden="true"></i> &nbsp;
-            @twitter-handle
+          <a href="https://www.facebook.com/{{ site.contact.facebook.username }}">
+            <i class="fa fa-facebook" aria-hidden="true"></i> &nbsp;
+            {{ site.contact.facebook.text }}
+          </a>
+        </dd>
+        <dd class="nav-item">
+          <a href="https://www.instagram.com/{{ site.contact.instagram.username }}">
+            <i class="fa fa-instagram" aria-hidden="true"></i> &nbsp;
+            {{ site.contact.instagram.text }}
           </a>
         </dd>
       </dl>
     </div>
 
     <div class="footer-copyright text-center">
-      {{ site.title }} | &nbsp;
-      <a href="{{ site.url }}">your.awesome.domain</a>
+      {{ site.title }} | © 2017
     </div>
   </div>
 
