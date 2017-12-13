@@ -1,9 +1,6 @@
 $(document).ready(function() {
-/*
-  $("ul.nav li a").each(function() {
-    if ($(this).attr('href') == location.pathname) {
-      $(this).parent().addClass("active");
-    }
-  });
-*/
+    $(".scroll").click(function(event){
+        event.preventDefault();
+        $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+    });
 });

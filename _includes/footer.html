@@ -1,47 +1,50 @@
-<footer class="footer">
-  <div class="container">
-    <div class="clearfix">
-      <dl class="footer-logo footer-logo--big">
-        <img class="logo" src="{{ site.url }}/assets/img/logo.svg" height="65">
-        <dd class="nav-item">
-          <p>
-            ¡El espacio perfecto para tu boda! Disfruta de ese día acompañado de la naturaleza y tus invitados. <br>
-            Contamos con opción de hospedaje, salón de belleza y spa para que tu familia y tu se relajen los días previos al gran día.
-          </p>
-        </dd>
-      </dl>
-
-      <dl class="footer-nav">
-      </dl>
-
-      <dl class="footer-nav">
-      </dl>
-
-      <dl class="footer-nav">
-        <dt class="nav-title">CONTÁCTANOS</dt>
-        <dd class="nav-item">
-          <a href="mailto://{{ site.contact.email }}">
-            <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;
-            {{ site.contact.email }}
-          </a>
-        </dd>
-        <dd class="nav-item">
-          <a href="https://www.facebook.com/{{ site.contact.facebook.username }}">
-            <i class="fa fa-facebook" aria-hidden="true"></i> &nbsp;
-            {{ site.contact.facebook.text }}
-          </a>
-        </dd>
-        <dd class="nav-item">
-          <a href="https://www.instagram.com/{{ site.contact.instagram.username }}">
-            <i class="fa fa-instagram" aria-hidden="true"></i> &nbsp;
-            {{ site.contact.instagram.text }}
-          </a>
-        </dd>
-      </dl>
+<footer>
+  <div class="agileits-w3layouts-footer-top">
+    <div class="container">
+      <div class="col-md-6 agileits-w3layouts-footer-top-left">
+        <p><i class="fa fa-phone" aria-hidden="true"></i> +52 1 55 1784 6497</p>
+      </div>
+      <div class="col-md-6 agileits-w3layouts-footer-top-left">
+        <p><i class="fa fa-envelope" aria-hidden="true"></i> Email :<a href="mailto:{{ site.contact.email }}"> {{ site.contact.email }}</a></p>
+      </div>
+      <div class="clearfix"> </div>
     </div>
-
-    <div class="footer-copyright text-center">
-      {{ site.title }} | © 2017
+  </div>
+  <div class="agileits-footer-bottom">
+    <div class="container">
+      <div class="agileits-footer-bottom-grids">
+        <div class="col-md-7 footer-bottom-left">
+          <h5>Acerca de</h5>
+          <div class="footer-img-grids">
+            <div class="footer-img">
+              <img class="logo" src="{{ site.url }}/assets/img/logo.svg" height="65">
+            </div>
+            <div class="footer-img-info">
+              <p>¡El espacio perfecto para tu boda! Disfruta de ese día acompañado de la naturaleza y tus invitados.
+                Contamos con opción de hospedaje, salón de belleza y spa para que tu familia y tu se relajen los días previos al gran día.</p>
+            </div>
+            <div class="clearfix"> </div>
+          </div>
+        </div>
+        <div class="col-md-1 footer-bottom-right">
+        </div>
+        <div class="col-md-4 footer-bottom-right">
+          <h5>CONTÁCTANOS</h5>
+          <div class="agileinfo-social-grids">
+            <ul>
+              <li><a href="https://www.facebook.com/{{ site.contact.facebook.username }}"><i class="fa fa-facebook"></i> {{ site.contact.facebook.text }}</a></li>
+              <li><a href="https://www.instagram.com/{{ site.contact.instagram.username }}"><i class="fa fa-instagram"></i> {{ site.contact.instagram.username }}</a></li>
+              <li><a href="mailto:{{ site.contact.email }}"><i class="fa  fa-envelope-o"></i> {{ site.contact.email }}</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="clearfix"> </div>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <div class="container">
+      <p>© 2017 {{ site.title }}.</p>
     </div>
   </div>
 
@@ -52,8 +55,8 @@
   <script type='text/javascript' src="{{ site.url }}/assets/js/jquery.fs.stepper.min.js"></script>
 
   {% if page.custom_js %}
-    {% for js_file in page.custom_js %}
-    <script src='{{ site.url }}/js/{{ js_file }}.js' type="text/javascript"></script>
-    {% endfor %}
+  {% for js_file in page.custom_js %}
+  <script src='{{ site.url }}/js/{{ js_file }}.js' type="text/javascript"></script>
+  {% endfor %}
   {% endif %}
 </footer>
