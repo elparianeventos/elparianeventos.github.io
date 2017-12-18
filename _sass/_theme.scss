@@ -1,3 +1,5 @@
+$color-strong: #4f593d;
+
 body a {
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
@@ -14,7 +16,7 @@ body{
 }
 /*-- banner --*/
 .banner{
-  background: url(../img/pictures/home/1.jpg) no-repeat 0px 0px;
+  background: url(../img/home/1.jpg) no-repeat 0px 0px;
   background-size: cover;
   padding: 3em 0 4em;
 }
@@ -754,7 +756,7 @@ footer{
 .agileinfo-social-grids ul li a i.fa.fa-facebook, .agileinfo-social-grids ul li a i.fa.fa-instagram, .agileinfo-social-grids ul li a i.fa.fa-envelope-o {
   height: 30px;
   width: 30px;
-  border: solid 2px #FFFFFF;
+  border: solid 2px transparent;
   line-height: 29px;
   background: none;
   color: #FFFFFF;
@@ -1603,7 +1605,7 @@ button.btn1:hover{
   margin-top: 2em;
 }
 .wpf-demo-4 {
-  background-color: #f44336;
+  background-color: $color-strong;
   display: block;
   overflow: hidden;
   position: relative;
@@ -1614,6 +1616,9 @@ button.btn1:hover{
   transition: all 0.5s;
   width: 100%;
   height: 240px;
+}
+.wpf-demo-4 a {
+  height: inherit;
 }
 .wpf-demo-4 a.item-hover {
   display: block;
@@ -1626,25 +1631,16 @@ button.btn1:hover{
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
-  -moz-transform: scale(1.08);
-  -o-transform: scale(1.08);
-  -ms-transform: scale(1.08);
-  -webkit-transform: scale(1.08);
-  transform: scale(1.08);
 }
 .wpf-demo-4:hover img {
-  height: 100%;
-  margin-left: -42px;
-  margin-top: -7px;
-  -webkit-transform: translateY(-10%) rotate(-42deg) scale(1.5);
-  -moz-transform: translateY(-10%) rotate(-42deg) scale(1.5);
-  -o-transform: translateY(-10%) rotate(-42deg) scale(1.5);
-  -moz-transform: translateY(-10%) rotate(-42deg) scale(1.5);
-  transform: translateY(-10%) rotate(-42deg) scale(1.5);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  transform: scale(1.1);
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
-  width: 134%;
 }
 .wpf-demo-4:hover .view-caption {
   text-align: right;
@@ -1758,7 +1754,8 @@ button.btn1:hover{
 }
 .agileinfo-top-heading h2{
   color: #FFFFFF;
-  font-size: 2em;
+  text-shadow: 1px 1px 50px #000000;
+  font-size: 3em;
   margin: 0;
   font-weight: 100;
   font-family: 'Dancing Script', cursive;

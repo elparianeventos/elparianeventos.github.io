@@ -1,5 +1,41 @@
 ---
-layout: default
+layout: page
 ---
-
-{{ content }}
+{% assign path = "/assets/img/galleries" %}
+<div class="gallery">
+    <div class="container">
+        {{ content }}
+        <div id="jzBox" class="jzBox">
+            <div id="jzBoxNextBig"></div>
+            <div id="jzBoxPrevBig"></div>
+            <img src="#" id="jzBoxTargetImg" alt=""/>
+            <div id="jzBoxBottom">
+                <div id="jzBoxTitle"></div>
+                <div id="jzBoxMoreItems">
+                    <div id="jzBoxCounter"></div>
+                    <i class="arrow-left" id="jzBoxPrev"></i>
+                    <i class="arrow-right" id="jzBoxNext"></i>
+                </div>
+                <i class="close" id="jzBoxClose"></i>
+            </div>
+        </div>
+        <div class="gallery-grids-row">
+            {% for image in page.images %}
+            {% assign featured = item.images | where: "featured", "true" | first %}
+            {{ featured.image_path }}
+            <div class="col-md-4 gallery-grid">
+                <div class="wpf-demo-4">
+                    <a hrof="{{ item.url }}" class="jzBoxLink item-hover" title="{{ image.alt }}">
+                        <img src="{{ path }}{{ image.src }}" alt="{{ image.alt }}">
+                        <div class="view-caption">
+                            <!--p>Full View</p-->
+                        </div>
+                    </a>
+                </div>
+            </div>
+            {% endfor %}
+            <div class="clearfix"> </div>
+        </div>
+        <script src="js/jzBox.js"></script>
+    </div>
+</div>

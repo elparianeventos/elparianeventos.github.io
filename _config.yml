@@ -19,6 +19,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 collections_dir: collections
 collections:
   galleries:
+    output: true
+    permalink: /galleries/:path/
   featurettes:
 
 contact: {
@@ -32,6 +34,8 @@ contact: {
     text: Facebook
   }
 }
+
+permalink: pretty
 
 # Build settings
 markdown: kramdown

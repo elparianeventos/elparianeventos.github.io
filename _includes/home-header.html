@@ -1,0 +1,36 @@
+<div class="banner">
+  {% include menu.html %}
+  <div class="w3layouts-banner-slider">
+    <div class="container">
+      <div class="slider">
+        <div class="callbacks_container">
+          <ul class="rslides callbacks callbacks1" id="slider4">
+            <li>
+              <div class="agileits-banner-info">
+                <h3>Disfruta <span>el mejor día de tu vida</span></h3>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <script src="js/responsiveslides.min.js"></script>
+        <script>
+            $(function () {
+                $("#slider4").responsiveSlides({
+                    auto: true,
+                    pager:true,
+                    nav:false,
+                    speed: 500,
+                    namespace: "callbacks",
+                    before: function () {
+                        $('.events').append("<li>before event fired.</li>");
+                    },
+                    after: function () {
+                        $('.events').append("<li>after event fired.</li>");
+                    }
+                });
+            });
+        </script>
+      </div>
+    </div>
+  </div>
+</div>
