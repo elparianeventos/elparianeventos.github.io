@@ -1,18 +1,20 @@
 ---
-layout: page
-title: About
+layout: about
+title: Acerca
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Es un espacio nuevo, acogedor y relajante que con su arquitectura moderna
+contrasta a la perfección con la naturaleza que nos rodea.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Es por eso que si buscas que tus invitados y tú se desconecten de la rutina,
+del ruido y el movimiento de una ciudad: EL PARIÁN ES LA OPCIÓN.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Contamos con diferentes atractivos para cada evento, porque cada evento es
+diferente, podamos crear juntos un paquete idóneo a tus necesidades.
 
+Porque si te casas requieres del salón de belleza y SPA, pero aquella reunión
+familiar andarás buscando el asador de ensueño y la alberca.
 
-[jekyll-organization]: https://github.com/jekyll
+Por el horario no te preocupes, no tendrás a nadie alrededor que los moleste.
+Y muchas ventajas más.

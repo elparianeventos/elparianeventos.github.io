@@ -1,4 +1,8 @@
 $color-strong: #4f593d;
+$color-light: #d2dbac;
+$color-mid: #595757;
+$color-white: #f3f3f3;
+$color-black: #0b0b0b;
 
 body a {
   transition: 0.5s all;
@@ -575,7 +579,7 @@ ul.dropdown-menu {
   margin: 4em 0 0 0;
 }
 .w3-agileits-services-grid:nth-child(1), .w3-agileits-services-grid:nth-child(2), .w3-agileits-services-grid:nth-child(3) {
-  border-bottom: 1px ridge #ececec;
+  _border-bottom: 1px ridge #ececec;
 }
 .w3-agileits-services-grid{
   text-align: center;
