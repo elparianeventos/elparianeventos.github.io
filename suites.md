@@ -8,7 +8,7 @@ Todas nuestras habitaciones además de contar con un baño completo, TV
 satelital, clima, acceso a la alberca climatizada, estacionamiento; cuentan con
 caja fuerte y cafetera.
 
-3 hab. Sencillas (2 camas individuales)
+3 hab. Sencillas (2 camas individuales
 
 2 hab. Standard (1 cama King size)
 

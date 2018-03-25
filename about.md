@@ -4,17 +4,6 @@ title: Acerca
 permalink: /about/
 ---
 
-Es un espacio nuevo, acogedor y relajante que con su arquitectura moderna
-contrasta a la perfección con la naturaleza que nos rodea.
+El Parián es el lugar ideal para cualquier evento ya que cuenta con la combinación perfecta; dejate llevar por su arquitectura contemporánea y la belleza natural que lo rodea.
 
-Es por eso que si buscas que tus invitados y tú se desconecten de la rutina,
-del ruido y el movimiento de una ciudad: EL PARIÁN ES LA OPCIÓN.
-
-Contamos con diferentes atractivos para cada evento, porque cada evento es
-diferente, podamos crear juntos un paquete idóneo a tus necesidades.
-
-Porque si te casas requieres del salón de belleza y SPA, pero aquella reunión
-familiar andarás buscando el asador de ensueño y la alberca.
-
-Por el horario no te preocupes, no tendrás a nadie alrededor que los moleste.
-Y muchas ventajas más.
+Un espacio acogedor y autentico que cuenta con 566m2 teniendo la posibilidad de dividirse dependiendo las necesidades de tu evento. Contamos también con un hermoso jardín para ceremonias civiles y terrza de coctel así como 10 habitaciones de lujo para tí y tus más allegados.

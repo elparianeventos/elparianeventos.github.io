@@ -4,24 +4,36 @@ title: Servicios
 permalink: /services/
 ---
 
-[Salón de Eventos (para 400 pax.)](/event-hall)
+·Salon de eventos de 566m2
 
-[Suites (10)](/suites)
+·Jardín para boda civil
 
-Salón de belleza
+·Terraza de cóctel
 
-Cabinas para masaje
+·Áreas para sesión de fotos
 
-Alberca y Jacuzzi
+·Motor Lobby
 
-Temazcal, Vapor y Sauna
+·Área para arreglo de novia
 
-Caballerizas
+·Espacio para cocina
 
-Mesa de carambola
+·Plafón con iluminación arquitectónica
 
-Asador techado
+·Piso en madera vinílica
 
-Jardín amplio y seguro
+·Puntos para colgado
 
-Alianza con el Club de Golf San Gil (a tan solo 8 min.)
+·Baños para invitados
+
+·Baños de servicio
+
+·Planta de luz
+
+·Caballerizas
+
+·5 habitaciones
+
+·Alberca y Jacuzzi
+
+·Cabinas para masaje/faciales
